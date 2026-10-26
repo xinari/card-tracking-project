@@ -1,6 +1,6 @@
 import requests, json
 
-url = 'https://api.tcgdex.net/v2/en/sets/30th'
+url = 'https://api.tcgdex.net/v2/en/sets/sv10.5b'
 response = requests.get(url)
 
 if response.status_code == 200:
